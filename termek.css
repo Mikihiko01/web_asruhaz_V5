@@ -1,0 +1,41 @@
+.termek{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+}
+.termek{
+    position: relative;
+    overflow: hidden;
+    padding: 5px;
+    font-size: 12pt;
+    padding-bottom: 30px;
+    flex: 1 0 200px;
+    max-width: calc(33.3333%-10px);
+}
+.termek span{
+    position: absolute;
+    bottom: 5px;
+    right:  5px;
+    border: 1px solid lavender;
+    border-radius: 5px;
+    font-size: 10px;
+    padding: 3px 5px;
+
+}
+.termek img{
+    border:1px solid lavender;
+    border-radius: 5px;
+    width: 100%;
+}
+.termek button,.fizet{
+    font-size: 8pt;
+    padding: 3px;
+    margin: 2px;
+
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+}
+
